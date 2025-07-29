@@ -8,7 +8,7 @@
         @foreach(json_decode($admin->permissions) as $permission)
             <li>{{ $permission }}</li>
         @endforeach
-    </ul>
+    </ul> 
     <h3>Detalhes</h3>
     <p>Endereço: {{ $admin->detail->address }}</p>
     <p>Zip Code: {{ $admin->detail->zip_code }}</p>
